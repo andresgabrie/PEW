@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(165, 154, 154, .2);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+header{
+    background-color: black;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: white;
+    margin: -11px;
+    text-align: center;
+}
+.fondobarra{
+    background-image: url(../images/barbaenredada.jpg); /*Insertar imágen*/
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-y: 10px;
+    background-position-x: -200px;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+
+}
+.botonhome{
+    display: flex;
+    justify-content: center;
+    margin-left: 460px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255, .2);
+    width: 85px;
+    font-size: 35px;
+}
+.botoncuidados{
+    display: flex;
+    justify-content: center;
+    margin-left: 375px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255, .2);
+    width: 138px;
+    font-size: 35px;
+
+
+}
+.botonproductos{
+    display: flex;
+    justify-content: center;
+    margin-left: 378px;
+    margin-bottom: 40px;
+    background-color: rgb(255, 255, 255, .2);
+    width: 140px;
+    font-size: 35px;
+
+
+}
