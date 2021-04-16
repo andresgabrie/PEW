@@ -8,15 +8,48 @@
     <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Así se une el html con el css-->
 </head>
 <body>
-    <header>La Barba</header> <!-- Acá va el encabezado -->
-    <div class="fondobarra">                   <!-- Contenedor donde va el menú de navegación -->
-        <div class="botonhome"><a href="index.html">Home</a></div>
-        <div class="botoncuidados"><a href="cuidados.html">Cuidados</a></div>
-        <div class="botonproductos"><a href="productos.html">Productos</a></div>
+    <div class="encabezado"> <!-- Fondo primer caja (imagen)-->
+        <header> M&uacutesica</header>
+        <div>
+            <ul class="menu">
+                <li>Home</li>
+                <li><a href="profesores.html">Profesores</a></li>
+                <li><a href="instrumentos.html">Instrumentos</a></li>
+            </ul>
+        </div>
     </div>
 
-    
+    <div> <!-- Menu interno-->
+        <ul>
+            <li><a href="#quienessomos">Quienes somos</a></li>
+            <li><a href="#registrarse">Registrarse</a></li>
+        </ul>
+    </div>
 
+    <div> <!-- Content -->
+        <div> <!-- Quiene somo'-->
+            <h1 id="quienessomos">Quienes somos</h1>
+            <div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores illo voluptatibus eos exercitationem reprehenderit, quam in. Quasi totam minima architecto ipsam illo fugit. Corrupti, porro! Veritatis doloremque corporis adipisci dolore.</p>
+            </div>
+        </div>
+    </div>
 
+    <div class="regstyle" id="registrarse"> <!-- Registrarse -->
+        <h1>Registrarse</h1>
+        <div>
+            <form action="">
+                <ul>
+                    <li><label for="nombre">Nombre: </label><input type="text" name="nombre" value=""/></li>
+                    <li><label for="apellido">Apellido: </label><input type="text" name="apellido" value=""/></li>
+                    <li><label for="dni">D.N.I.: </label><input type="text" name="dni" value=""/></li>
+                    <li><label for="mail">Mail: </label><input type="text" name="mail" value=""></li>
+                    <li><label for="captcha">Ingrese el captcha: </label><input type="text" name="captcha" value=""></li>
+                </ul>
+            </form>
+            <img src="" alt="">
+        </div>
+        <input type="submit" value="Enviar">
+    </div>
 </body>
 </html>
